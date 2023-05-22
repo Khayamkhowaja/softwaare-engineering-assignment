@@ -1,5 +1,7 @@
 #include "mytime.h"
 
+/* function that marks the current tempo ("tick" of the clock)
+   It must be used to mark the beginning of the stretch that we want to measure in tempo */
 
 timer tic() {
     timer tic_;
